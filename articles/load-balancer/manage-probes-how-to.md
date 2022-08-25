@@ -60,11 +60,10 @@ In this example, you'll create a TCP health probe to monitor port 80.
     | Protocol | Select **TCP**. |
     | Port | Enter the **TCP** port you wish to monitor. For this example, it's **port 80**. |
     | Interval | Enter an interval between probe checks. For this example, it's the default of **5**. |
-    | Unhealthy threshold | Enter the threshold number for consecutive failures. For this example, it's the default of **2**. |
 
 7. Select **Add**.
 
-    :::image type="content" source="./media/manage-probes-how-to/add-tcp-probe.png" alt-text="Screenshot of TCP probe addition.":::
+    :::image type="content" source="./media/manage-probes-how-to/add-tcp-probe-updated.png" alt-text="Screenshot of TCP probe addition.":::
 
 ### Remove a TCP health probe
 
@@ -113,7 +112,6 @@ In this example, you'll create an HTTP health probe.
     | Port | Enter the **TCP** port you wish to monitor. For this example, it's **port 80**. |
     | Path | Enter a URI used for requesting health status. For this example, it's **/**. |
     | Interval | Enter an interval between probe checks. For this example, it's the default of **5**. |
-    | Unhealthy threshold | Enter the threshold number for consecutive failures. For this example, it's the default of **2**. |
 
 7. Select **Add**.
 
@@ -166,11 +164,10 @@ In this example, you'll create an HTTPS health probe.
     | Port | Enter the **TCP** port you wish to monitor. For this example, it's **port 443**. |
     | Path | Enter a URI used for requesting health status. For this example, it's **/**. |
     | Interval | Enter an interval between probe checks. For this example, it's the default of **5**. |
-    | Unhealthy threshold | Enter the threshold number for consecutive failures. For this example, it's the default of **2**. |
 
 7. Select **Add**.
 
-    :::image type="content" source="./media/manage-probes-how-to/add-https-probe.png" alt-text="Screenshot of HTTPS probe addition.":::
+    :::image type="content" source="./media/manage-probes-how-to/add-https-probe-updated.png" alt-text="Screenshot of HTTPS probe addition.":::
 
 ### Remove an HTTPS health probe
 
